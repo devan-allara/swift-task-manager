@@ -78,7 +78,7 @@ func viewTasks() {
     }
     userSelection == 1 ? mainMenu() : viewTasks()
 }
-
+//9. Create remove task function
 func removeTask() {
     if tasks.count == 0 {
         print("You need to create some tasks first! Press enter to return to the main menue")
@@ -151,7 +151,7 @@ func mainMenu() {
         mainMenu()
     }
     }
-
+//10. call main menu function
 mainMenu()
 
 
