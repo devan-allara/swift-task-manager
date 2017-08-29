@@ -8,7 +8,7 @@
 
 import Foundation
 //6. Create the task class
-class task {
+class Task {
     var title: String
     var description: String
     var priority: Priority

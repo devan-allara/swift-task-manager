@@ -6,11 +6,4 @@
 //  Copyright © 2017 Devan Allara. All rights reserved.
 //
 
-import Foundation
 
-//7. Create the priority enum
-enum Priority {
-    case Low
-    case Medium
-    case High 
-}

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		07065B6F1F44D02A00C76940 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07065B6E1F44D02A00C76940 /* main.swift */; };
 		07B8F9591F4C767F0050F526 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8F9581F4C767F0050F526 /* Task.swift */; };
-		07B8F95B1F4C76B30050F526 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8F95A1F4C76B30050F526 /* Enumerations.swift */; };
+		07B8F9971F55EB9C0050F526 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B8F9961F55EB9C0050F526 /* Priority.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 		07065B6B1F44D02A00C76940 /* swift-task-manager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-task-manager"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07065B6E1F44D02A00C76940 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		07B8F9581F4C767F0050F526 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		07B8F95A1F4C76B30050F526 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		07B8F9961F55EB9C0050F526 /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			children = (
 				07065B6E1F44D02A00C76940 /* main.swift */,
 				07B8F9581F4C767F0050F526 /* Task.swift */,
-				07B8F95A1F4C76B30050F526 /* Enumerations.swift */,
+				07B8F9961F55EB9C0050F526 /* Priority.swift */,
 			);
 			path = "swift-task-manager";
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 			files = (
 				07B8F9591F4C767F0050F526 /* Task.swift in Sources */,
 				07065B6F1F44D02A00C76940 /* main.swift in Sources */,
-				07B8F95B1F4C76B30050F526 /* Enumerations.swift in Sources */,
+				07B8F9971F55EB9C0050F526 /* Priority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

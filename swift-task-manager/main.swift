@@ -8,32 +8,23 @@
 
 import Foundation
 
-var tasks = [task]()
+var tasks = [Task]()
 
 //5. Create function to add a task to the tasks array
 func addTask() {
     print("What's the title of your task?")
-    let title = readLine()
+    let title = readLine()!
     print("Give a description of your task")
-    let description = readLine()
+    let description = readLine()!
     print("Is this a low, medium, or high priority task?")
-    var priorityInput = readLine()
-    while priorityInput?.uppercased() != "LOW" && priorityInput?.uppercased() != "MEDIUM" && priorityInput?.uppercased() != "HIGH"{
+    var priorityInput = readLine()!
+    var priority = Priority(rawValue: priorityInput.uppercased())
+    while priority == nil {
         print("Please input a valid selection")
-        priorityInput = readLine()
+        priorityInput = readLine()!
+        priority = Priority(rawValue: priorityInput.uppercased())
     }
-    var priority: Priority!
-    switch priorityInput?.uppercased() {
-        case "LOW"?:
-            priority = .Low
-        case "MEDIUM"?:
-            priority = .Medium
-        case "HIGH"?:
-            priority = .High
-        default:
-            priority = .Low
-    }
-    let newTask = task(title: title!, description: description!, priority: priority)
+    let newTask = Task(title: title, description: description, priority: priority!)
     tasks.append(newTask)
     print("New Task Created! Press enter to return to the main menue")
     _ = readLine()
